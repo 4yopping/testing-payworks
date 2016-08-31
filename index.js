@@ -4,10 +4,10 @@ const Payworks = require('banorte-payworks')
 require('co-mocha')
 
 let payworks = new Payworks({
-  merchant: '7652969',
-  user: 'a7652969',
-  password: 'a7652969',
-  terminal: '07652969'
+  merchant: '',
+  user: '',
+  password: '',
+  terminal: ''
 })
 let data = {
   mode: 'AUT',

@@ -1,0 +1,18 @@
+{
+  "name": "testing-payworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "banorte-payworks": "git+ssh://git@github.com/4yopping/banorte-payworks.git#testing"
+  },
+  "devDependencies": {
+    "co-mocha": "^1.1.3",
+    "mocha": "^3.0.2"
+  }
+}

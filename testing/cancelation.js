@@ -17,14 +17,13 @@ let controlNumber = function () {
 }
 
 let payworks = new Payworks({
-    mode:'AUT',    
+    // here put the mode of transaction, put PRD to do en production mode
   merchant: '7652969',
   user: 'a7652969',
   password: 'a7652969',
   terminal: '07652969'
 })
 let data = {
-  mode: 'AUT',
   amount: 189.00,
   entry_mode: 'MANUAL',
   card_number: '4111111111111111',

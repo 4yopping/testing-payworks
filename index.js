@@ -22,10 +22,10 @@ describe('Payworks#auth', function () {
 
         this.payworks = new Payworks({
             // here put the mode of transaction, put PRD to do en production mode
-          merchant: '',
-          user: '',
-          password: '',
-          terminal: ''
+          merchant: '7652969',
+          user: 'a7652969',
+          password: 'a7652969',
+          terminal: '07652969'
         })
         this.data = {
           amount: 189.00,

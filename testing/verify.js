@@ -12,6 +12,6 @@
     this.verify = yield this.payworks.verify(this.params)
     console.log('verify : ', this.verify)
 
-    this.close = yield this.payworks.verify(this.params)
-    console.log('verify : ', this.verify)
+    this.close = yield this.payworks.close()
+    console.log('close : ', this.close)
   })

@@ -4,6 +4,6 @@ it('should obtain a postAuth', function * () {
     amount: this.data.amount,
     reference: this.preAuth.referencia
   }
-  this.preAuth = yield this.payworks.postAuth(this.params)
+  this.postAuth = yield this.payworks.postAuth(this.params)
   console.log('postAuth : ', this.postAuth)
 })
